@@ -1,0 +1,61 @@
+Task 1: File Management
+I opened file explorer, I navigate to the location where I want to save my work (e.g., Desktop). I created a main folder named web_basics. 
+Inside web_basics, I created three subfolders:
+Notes
+Projects
+Images
+I opened the notes folder and created a text file named week1.txt and I opened week1.txt and wrote a short paragraph describing what I learned in Week 1:
+Steps and Results:
+Open File Explorer.
+Navigate to the location where I want to save my work (e.g., Desktop).
+Created a main folder named web_basics.
+Inside web_basics, created three subfolders:
+notes
+projects
+images
+I opened the notes folder and created a text file named week1.txt.
+I opened week1.txt and wrote a short paragraph describing what I learned in Week 1:
+
+In Week 1, I learned the basics of computing and web development. I learned what a computer is, the difference between hardware and software, and the role of an operating system. I also learned about files, folders, the command line, basic internet concepts such as servers, browsers, and DNS. Additionally, I learned the importance of data protection, Git and GitHub for version control, and VS Code as a code editor. This week helped me understand how computers, development tools, and the web work together.
+
+
+Task 2: Command Line Practice (Windows)
+Steps and Commands:
+
+I opened Command Prompt, I navigate to the web_basics folder: cd %USERPROFILE%\Desktop\web_basics : It changes the current directory to the web_basics folder.
+
+I Created a new folder named cli_practice: mkdir cli_practice: it creates the folder inside web_basics.
+
+I entered into the cli_practice folder: cd cli_practice
+
+I created a file named test.txt: echo.> test.txt. It creates an empty text file named test.txt.
+
+I renamed test.txt to myfile.txt: ren test.txt myfile.txt. It renames the file to myfile.txt.
+
+I displayed all files and folders in the directory: dir. It lists all files and folders; confirms myfile.txt exists.
+
+
+Task 3: VS Code Setup
+Steps and Results
+I installed Visual Studio Code from the official website.
+I opened VS Code.
+I opened the web_basics folder in VS Code (File → Open Folder → Select web_basics).
+I navigated to the projects folder.
+I created a new file named index.html.
+I wrote my first line of HTML code:
+
+Html
+<!DOCTYPE html>
+
+
+Task 4: Internet and Web Observation
+
+Website visited: www.wikipedia.org
+
+Domain name: wikipedia.org
+
+Protocol used: HTTPS
+
+What happens behind the scenes when I press Enter in the browser:
+
+When I press Enter, the browser first sends a request to the DNS to find the IP address of the website. Once the IP address is found, the browser connects securely to the server using HTTPS. The server then processes the request and sends back the website files such as HTML, CSS, and images. The browser receives these files, processes them, and displays the webpage on the screen.
