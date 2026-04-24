@@ -1,6 +1,7 @@
 const express = require('express');
 const userRouter = require("./src/routes/user.routes");
 const productRouter = require("./src/routes/products/product.routes");
+const cartRouter = require("./src/routes/carts/cart.routes");
 const dotenv = require('dotenv');
 const connectDB = require(`./src/db/index`);
 const errorHandler = require(`./src/middlewares/error.middleware`);
@@ -18,6 +19,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api/auth", userRouter);
 
 app.use("/api/products", productRouter);
+
+app.use("/api/cart", cartRouter);
 
 app.use (errorHandler);
 
