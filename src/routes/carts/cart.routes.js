@@ -11,8 +11,8 @@ const {
 const auth = require("../../middlewares/auth.middleware");
 
 router.get("/", auth, getCart);
-router.post("/add", auth, addToCart);
-router.put("/update", auth, updateCartItem);
+router.post("/", auth, addToCart);
+router.put("/items/:productId", auth, updateCartItem);
 router.delete("/clear", auth, clearCart);
 
 module.exports = router;
