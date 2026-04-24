@@ -13,6 +13,6 @@ const auth = require("../../middlewares/auth.middleware");
 router.get("/", auth, getCart);
 router.post("/", auth, addToCart);
 router.put("/items/:productId", auth, updateCartItem);
-router.delete("/", auth, clearCart);
+router.delete("/items/:productId", auth, clearCart);
 
 module.exports = router;
