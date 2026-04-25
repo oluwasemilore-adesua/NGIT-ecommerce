@@ -1,5 +1,5 @@
 const express = require('express');
-const userRouter = require("./src/routes/user.routes");
+const userRouter = require("./src/routes/users/user.routes");
 const productRouter = require("./src/routes/products/product.routes");
 const cartRouter = require("./src/routes/carts/cart.routes");
 const dotenv = require('dotenv');
